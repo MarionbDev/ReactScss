@@ -1,0 +1,84 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: black;
+$primary-background-color: white;
+
+
+
+
+
+img {
+    width: 68%;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.section.bulbasaur {
+    background: gray;
+    border: 0;
+
+
+}
+
+.section {
+    color: $primary-color;
+    font: 105% $font-stack;
+    background-color: $primary-background-color;
+    border: solid 0 white;
+    height: 180px;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+hr {
+    margin-top: 30px;
+   
+}
+
+h2, h3, p {
+    margin: 2px 20px 0 10px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+}
+
+p.subtitle {
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 10px 20px 10px;
+
+    button {
+        border-radius: 30px;
+        background-color: rgb(219, 219, 219);
+        color: $primary-color;
+        font-size: 16spx;       
+    }
+}
+    
+p.action{
+    color: rgb(150, 18, 150);
+    font-weight: bold;
+    margin-top: 15px;     
+}
+
+
+  
